@@ -1,6 +1,5 @@
 name: kkruze cicd
-
- on: [push]
+on: [push]
 
  jobs:
    build:
@@ -11,7 +10,7 @@ name: kkruze cicd
     uses: action/checkout@v2
    - name: we are testing this workflow
     uses: run echo hello wamy
-    
+
 
 
 
