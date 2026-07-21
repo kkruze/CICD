@@ -1,0 +1,20 @@
+name: kkruze cicd
+
+ on: [push]
+
+ jobs:
+   build:
+   runs-on: ubuntu latest
+
+   steps:
+   - name: checkout code
+    uses: action/checkout@v2
+   - name: we are testing this workflow
+    uses: run echo hello wamy
+    
+
+
+
+
+
+
