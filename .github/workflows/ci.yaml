@@ -1,12 +1,14 @@
-name: ci 
+name: ci
 
 on: [push]
 
 jobs:
-    build:
-     runs-on: ubuntu-latest
-     steps:
-    - name: checkout code
-      uses: actions/checkout@v4
-    - name: we are testing thisworkflow
-      run: echo hello world
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: We are testing this workflow
+        run: echo "Hello world"
