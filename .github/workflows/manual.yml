@@ -19,7 +19,7 @@ jobs:
 
         strategy:
             matrix:
-                python-version: ${{ inputs.python-version }}
+                python-version: ["${{ inputs.python-version }}"]
 
         steps:
             - name: checkout code
